@@ -5,11 +5,12 @@ import Dashboard from './pages/dashboard/Dashboard.jsx'
 import Connexion from './pages/connexion/Connexion.jsx'
 import Inscription from './pages/inscription/Inscription.jsx'
 import { Toaster } from 'react-hot-toast'
+import RouteProtector from './components/RouteProtector.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Dashboard/>
+    element: <RouteProtector><Dashboard/></RouteProtector>
   },
   {
     path: "/connexion",
