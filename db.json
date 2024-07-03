@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "a673",
+      "nom": "Perrin Emmanuel Nzaou",
+      "email": "perrinemmanuelnzaou@gmail.com",
+      "mdp": "Bxxmin@66@2024",
+      "mdpConfirm": "Bxxmin@66@2024"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "titre": "titre",
+      "contenu": "contenu",
+      "date": "2024-07-02",
+      "users": 1
+    }
+  ]
+}
