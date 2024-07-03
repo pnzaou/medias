@@ -13,7 +13,7 @@ const Inscription = () => {
         if(data.mdp !== data.mdpConfirm){
             toast.error('les deux mots de passe doivent être identiques')
         } else {
-            axios.get(`http://localhost:3000/users?mdp=${data.mdp}`)
+            axios.get(`http://localhost:3000/users?email=${data.email}`)
             .then(res => {
                 if(res.data.length > 0){
                     toast.error("Cette adresse email existe déjà")
